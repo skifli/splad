@@ -1,0 +1,24 @@
+/ {
+	chosen {
+		zmk,keyboard = &kb;
+	};
+
+	kb: keyboard {
+		compatible = "zmk,keyboard";
+
+		matrix_rows = <5>;
+		matrix_cols = <5>;
+
+		row-gpios = <&gpio0 12 GPIO_ACTIVE_LOW>,
+					<&gpio0 13 GPIO_ACTIVE_LOW>,
+					<&gpio0 16 GPIO_ACTIVE_LOW>,
+					<&gpio0 14 GPIO_ACTIVE_LOW>,
+					<&gpio0 15 GPIO_ACTIVE_LOW>;
+
+		col-gpios = <&gpio0 20 GPIO_ACTIVE_LOW>,
+					<&gpio0 19 GPIO_ACTIVE_LOW>,
+					<&gpio0 18 GPIO_ACTIVE_LOW>,
+					<&gpio0 17 GPIO_ACTIVE_LOW>,
+					<&gpio0 16 GPIO_ACTIVE_LOW>;
+	};
+};
