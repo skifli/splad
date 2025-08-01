@@ -51,11 +51,11 @@ The [journal](JOURNAL.md) contains each day's work, logged, with the aid of imag
 
 ### Schematic
 
-![alt text](assets/schematic.png)
+![schematic image](assets/schematic.png)
 
 ### PCB Design
 
-![alt text](assets/pcb-design.png)
+![pcb image](assets/pcb-design.png)
 
 ## BOM
 
