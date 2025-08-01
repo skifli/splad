@@ -1,0 +1,54 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                // Row 0 (Left 6 keys + Right 6 keys)
+                &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y
+                &kp U    &kp I    &kp O    &kp P    &kp LBKT &kp RBKT
+
+                // Row 1
+                &kp A    &kp S    &kp D    &kp F    &kp G    &kp H
+                &kp J    &kp K    &kp L    &kp SCLN &kp QUOT &kp BSLS
+
+                // Row 2
+                &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N
+                &kp M    &kp COMM &kp DOT  &kp SLSH &kp ESC  &&kp TAB
+
+                // Row 3
+                &kp LCTL &kp LGUI &mo 1    &kp SPC  &mo 2    &kp BSPC
+                &kp ENT  &kp RALT &kp LEFT  &kp DOWN &kp UP   &kp RIGHT
+            >;
+        };
+
+        symbol_layer {
+            bindings = <
+                &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6
+                &kp N7    &kp N8    &kp N9    &kp N0    &kp MINS  &kp EQL
+
+                &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PERC  &kp CIRC
+                &kp AMPR  &kp ASTER &kp LPAR  &kp RPAR  &kp LBRC  &kp RBRC
+
+                &kp PLUS  &kp UNDS  &kp GRV   &kp TILD  &kp PIPE  &kp BSLS
+                &kp COLN  &kp SCLN  &kp QUOT  &kp DQUO  &kp LT    &kp GT
+
+                &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans
+            >;
+        };
+
+        nav_layer {
+            bindings = <
+                &kp ESC   &kp PGUP  &kp HOME  &kp END   &kp INS   &kp DEL
+                &kp TAB   &kp PGDN  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT
+
+                &kp C_MUTE &kp C_VOL_D &kp C_VOL_U &trans  &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans
+
+                &trans    &trans    &trans    &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans
+            >;
+        };
+    };
+};
