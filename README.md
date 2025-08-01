@@ -49,7 +49,7 @@ Fully checked with DRC / ERC - no errors.
 
 ### Schematic
 
-![kciad schematic](assets/image.png)
+![kciad schematic](assets/schematic.png)
 
 ### PCB Design [Left]
 
