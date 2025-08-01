@@ -18,3 +18,11 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+
+board:
+  - nice_nano_v2
+
+include:
+  - board: nice_nano_v2
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=splad
+    artifact-name: splad_nice_nano_v2
