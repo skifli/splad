@@ -61,7 +61,7 @@ Fully checked with DRC / ERC - no errors.
 
 ## BOM
 
-$192.54
+$202.19
 
 <details closed>
 <summary>Click to open</summary>
